@@ -19,7 +19,7 @@
  * limitations under the License.
  */
 
-var debug = require('debug')('koa-session-redis3');
+var debug = require('debug')('koa-session-redis4');
 var Puid = require('puid');
 var puid = new Puid();
 var thunkify = require('thunkify');
