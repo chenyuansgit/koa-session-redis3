@@ -15,6 +15,7 @@
     "middleware",
     "session",
     "redis",
+    "hiredis",
     "ttl",
     "key",
     "user"
@@ -33,6 +34,9 @@
     "puid": "1.0.*",
     "redis": "2.8.*",
     "thunkify": "2.1.*"
+  },
+  "optionalDependencies": {
+    "hiredis": "0.4.*"
   },
   "scripts": {
     "test": "make test"
